@@ -18,7 +18,6 @@ def main():
     logger.info(f"Pasta de dados criada ou já existente em: {data_dir}")
     logger.info("Iniciando o processo de download de arquivos anuais da Produção da Extração Vegetal e da Silvicultura (PEVS) - Área total existente em 31/12 dos efetivos da silvicultura, por espécie florestal")
     
-    # Códigos de municípios do estado de Rondônia (RO)
     municipality_codes_ro = [
         "1100106", "1100205", "1100015", "1100023", "1100049", "1100056",
         "1100064", "1100080", "1100098", "1100114", "1100122", "1100155",
